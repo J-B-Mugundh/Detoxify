@@ -77,17 +77,17 @@ The challenge is engaging digitally savvy youth with positive anti-drug messages
   - Securely authenticate API requests, providing a token-based system for enhanced security.
     
 ### Machine Learning and Deep Learning
-**TensorFlow:**
+- **TensorFlow:**
   - Excellent for building and training deep learning models, providing a high level of flexibility.
-**Other Python Libraries and Modules:**
+- **Other Python Libraries and Modules:**
   - Utilized for enhanced functionality and feature integration.
 
 ### Additional Technologies
-**HTTPS:**
+- **HTTPS:**
   - Ensures secure communication over the web.
-**Spotify APIs:**
+- **Spotify APIs:**
   - Integrated for personalized music / audio book functionalities.
-**OWASP:**
+- **OWASP:**
   - Following security best practices.
 
 ## Contact
