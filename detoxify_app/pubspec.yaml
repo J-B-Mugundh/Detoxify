@@ -1,0 +1,89 @@
+name: detoxify_app
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  country_pickers: ^2.0.0
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.9
+  flutter_svg_provider: ^1.0.7
+  smooth_page_indicator: ^1.1.0
+  intl: ^0.18.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Poppins
+      fonts: 
+        - asset: assets/fonts/PoppinsRegular.ttf
+          weight: 400
+        - asset: assets/fonts/PoppinsBold.ttf
+          weight: 700
+        - asset: assets/fonts/PoppinsSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/PoppinsMedium.ttf
+          weight: 500
+    - family: Manrope
+      fonts: 
+        - asset: assets/fonts/ManropeBold.ttf
+          weight: 700
+        - asset: assets/fonts/ManropeSemiBold.ttf
+          weight: 600
+    - family: Nunito
+      fonts: 
+        - asset: assets/fonts/NunitoRegular.ttf
+          weight: 400
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterBold.ttf
+          weight: 700
+        - asset: assets/fonts/InterSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/InterMedium.ttf
+          weight: 500
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
+    - family: Roboto
+      fonts: 
+        - asset: assets/fonts/RobotoLight.ttf
+          weight: 300
+        - asset: assets/fonts/RobotoMedium.ttf
+          weight: 500
+        - asset: assets/fonts/RobotoBold.ttf
+          weight: 700
+    - family: Rubik
+      fonts: 
+        - asset: assets/fonts/RubikRegular.ttf
+          weight: 400
+    - family: Nunito Sans
+      fonts: 
+        - asset: assets/fonts/NunitoSansRegular.ttf
+          weight: 400
+    - family: Overpass
+      fonts: 
+        - asset: assets/fonts/OverpassRegular.ttf
+          weight: 400
+    - family: Barlow Condensed
+      fonts: 
+        - asset: assets/fonts/BarlowCondensedRegular.ttf
+          weight: 400
+    - family: ABeeZee
+      fonts: 
+        - asset: assets/fonts/ABeeZeeRegular.ttf
+          weight: 400
+    - family: DM Sans
+      fonts: 
+        - asset: assets/fonts/DMSansBold.ttf
+          weight: 700
+        - asset: assets/fonts/DMSansMedium.ttf
+          weight: 500
+        - asset: assets/fonts/DMSansRegular.ttf
+          weight: 400
